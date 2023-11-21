@@ -1,6 +1,11 @@
 import "./App.css";
+import { MUILinks } from "./components/MUILinks";
+// import { MUINavbar } from "./components/MUINavbar";
+// import { MUIAccordion } from "./components/MUIAccordion";
+// import { MUIImageList } from "./components/MUIImageList";
+// import { MUICard } from "./components/MUICard";
 // import { MUIAutocomplete } from "./components/MUIAutocomplete";
-import { MUILayout } from "./components/MUILayout";
+// import { MUILayout } from "./components/MUILayout";
 // import { MUIRating } from "./components/MUIRating";
 // import { MUISwitch } from "./components/MUISwitch";
 // import { MUICheckbox } from "./components/MUICheckbox";
@@ -15,10 +20,15 @@ import { MUILayout } from "./components/MUILayout";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <MUIRating /> */}
       {/* <MUIAutocomplete /> */}
-      <MUILayout />
+      {/* <MUILayout /> */}
+      {/* <MUICard /> */}
+      {/* <MUIAccordion /> */}
+      {/* <MUIImageList /> */}
+      {/* <MUINavbar /> */}
+      <MUILinks />
       {/* <MUISwitch /> */}
       {/* <MUITyporaphy /> */}
       {/* <MUIButton /> */}
